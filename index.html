@@ -1,0 +1,14 @@
+<script>
+let n1 = parseFloat(prompt("digite a nota da primeira avaliação"))
+let n2 = parseFloat(prompt("digite a nota da segunda avaliação"))
+if (n1 >= 0 && n1 <= 10 && n2 >= 0 && n2 <= 10 ) {
+    let media = n1 + n2 / 2;
+    if (media >= 6) {
+        alert ("você foi aprovado com uma media de", media.toFixed(1) + ".");     
+    }else {
+        alert  ("você foi reprovado com uma media de", media.toFixed(1) + "."); 
+    }
+} else (
+    alert ("as notas inseridas são inválidas")
+)
+</script>
